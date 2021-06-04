@@ -4,3 +4,4 @@ document.querySelector('.themes').addEventListener('change', (event) => {
         document.documentElement.classList.add(event.target.value);
     }
 });
+
