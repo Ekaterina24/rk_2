@@ -25,7 +25,6 @@ body {
     background-color: var(--color-bg);
     color: var(--color-text);
     font-family: 'Odibee Sans', cursive;
-    background-image: url(../images/fon.jpg);
     background-position: center;
 }
 
@@ -64,10 +63,6 @@ ul {
 
 header {
     padding: 20px 0 20px 0;
-}
-
-a {
-    color:#130968;
 }
 
 li:hover {
