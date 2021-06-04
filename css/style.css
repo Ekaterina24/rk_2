@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+html.light {
+    --color-bg: #ffffff;
+    --color-text: #000000;
+}
+
+html.dark {
+    --color-bg: #000000;
+    --color-text: #ffffff;
+}
+
+body {
+    background-color: var(--color-bg);
+    color: var(--color-text);
+    font-family: 'Odibee Sans', cursive;
+    background-image: url(../images/fon.jpg);
+    background-position: center;
+}
+
+.header__logo h1 {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.header__logo img {
+    vertical-align: middle;
+}
+
+.header__block {
+    display: flex;
+}
+
+li {
+    list-style: none;
+    margin-right: 15px;
+    font-size: 25px;
+}
+
+nav {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+ul {
+    display: flex;
+    margin-left: 200px;
+}
+
+.themes {
+    margin-left: 150px;
+}
+
+header {
+    padding: 20px 0 20px 0;
+}
+
+a {
+    color:#130968;
+}
+
+li:hover {
+    border-bottom: 1px solid white;
+}
