@@ -16,7 +16,7 @@
         <div class="container">
             <div class="header__block">
                 <div class="header__logo">
-                    <h1>Рецепты</h1>
+                    <h1 class="block-animation">Рецепты</h1>
                     <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
                         xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 469.333 469.333"
                         style="enable-background:new 0 0 469.333 469.333;" xml:space="preserve" width="30" height="30">
@@ -74,16 +74,42 @@
                 </nav>
 
                 <div class="themes">
-                    <label><input type="radio" name="theme" value="light" checked>Light</label>
-                    <label><input type="radio" name="theme" value="dark">Dark</label>
+                    <div class="themes__type">
+                        <label><input type="radio" name="theme" value="light" checked>Light</label>
+                    </div>
+
+                    <div class="themes__type">
+                        <label><input type="radio" name="theme" value="dark">Dark</label>
+                    </div>
+
                 </div>
             </div>
 
         </div>
     </header>
 
+    <div class="about" id="about">
+        <div class="container">
+            <h2>О проекте</h2>
+            <p>Создать страницу (index.html), которая содержит редактируемый список по заданной тематике и цветовой
+                палитре. И краткий отчет о проделанной работе.
+                Идея задания в том, что на странице есть краткая информация в виде подборок по направлениям, из которой
+                пользователь может наполнять свой список.</p>
+            <h3>Главные требования</h3>
+            <ol>
+                <li>Работа выполнена самостоятельно.</li>
+                <li>Работа создана во время проведения занятия.</li>
+                <li>Более двух коммитов за авторством студента.</li>
+                <li>Веб-страница размещена на сервере факультета fit.mospolytech.ru (или другом хостинге) и на удаленном
+                    репозитории с историей коммитов.</li>
+                <li>Работа сдана через форму</li>
+                </ul>
+        </div>
 
-    <main>
+    </div>
+
+
+    <main id="cat">
         <div class="container">
             <div class="categories">
                 <a href="soup.html">Супы</a>
@@ -92,6 +118,17 @@
             </div>
         </div>
     </main>
+
+
+    <footer>
+        <div class="container">
+            <div class="footer__block">
+                <span>Рыкова Екатерина Дмитриевна</span>
+                <span>201-321</span>
+                <span>04.06.2021</span>
+            </div>
+        </div>
+    </footer>
     <script src="js/script.js"></script>
 </body>
 
